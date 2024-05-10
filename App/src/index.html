@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:,">
+  <style>
+     html { 
+      font-family: Helvetica; 
+      display: inline-block; 
+      margin: 0px auto; 
+      text-align: center;
+    }
+    body{
+      background-color: black;
+    }
+    button {
+      background-color: #9cc9cb;
+      border: none; 
+      color: rgb(0, 0, 0); 
+      padding: 16px 40px;
+      text-decoration: none; 
+      font-size: 33px; 
+      margin: 2px; 
+      cursor: pointer;
+      width: 180px;
+      height: 180px;
+      text-align: center;
+      border: 20px;
+    }
+    .button_26 {
+      background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNiv_i0z7SUFMXKZYbYMlB_kNrSsj1VvfywA6Y0Y-row&s");
+      background-size: cover;
+      background-position: center top;
+    }
+    .button_27 {
+      background-image: url("https://t3.ftcdn.net/jpg/02/08/25/66/360_F_208256678_37zjgDuOcgPgmV7mpRVJr1hKQp6te9dY.webp");
+      background-size: cover;
+      background-position: center top;
+    }
+    .button_25, .button_33, .button_32 {
+      background-image: url("https://www.shutterstock.com/image-vector/double-bed-lamp-showing-bedroom-260nw-1190868772.jpg");
+      background-size: cover;
+      background-position: center top;
+    }
+    .button_34 {
+      background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpWN_GZLJ6HYcGa8XOeMXp_6T8i-0iekMcf-NwEtx6kQ&s");
+      background-size: cover;
+      background-position: center top;
+    }
+    .gpio-container-1, .gpio-container-2, .gpio-container-3 {
+      display: flex; 
+      margin: 20px;
+      flex-direction: row;
+      justify-content: center; /* Center the container horizontally */
+    }
+    .gpio {
+      flex: 1; 
+      margin: 0 10px;
+    }
+    .button2 {
+      background-color: #555555;
+    }
+  </style>
+</head>
+<body>
+  <h1 style="color: white;">Welcome</h1>
+  
+  <div class="gpio-container-1">
+    <div class="gpio">
+      <p>Livingroom - State OUTPUT_26_STATE</p>
+      <p><a href="/26/on"><button class="button_26"></button></a></p>
+    </div>
+    <div class="gpio">
+      <p>Kitchen - State OUTPUT_27_STATE</p>
+      <p><a href="/27/on"><button class="button_27"></button></a></p>
+    </div>
+  </div>
+  
+  <div class="gpio-container-2">
+    <div class="gpio">
+      <p>Bedroom 1 - State OUTPUT_25_STATE</p>
+      <p><a href="/25/on"><button class="button_25"></button></a></p>
+    </div>
+    <div class="gpio">
+      <p>Bedroom 2 - State OUTPUT_33_STATE</p>
+      <p><a href="/33/on"><button class="button_33"></button></a></p>
+    </div>
+  </div>
+  
+  <div class="gpio-container-3">
+    <div class="gpio">
+      <p>Bedroom 3 - State OUTPUT_32_STATE</p>
+      <p><a href="/32/on"><button class="button_32"></button></a></p>
+    </div>
+    <div class="gpio">
+      <p>Garden - State OUTPUT_34_STATE</p>
+      <p><a href="/34/on"><button class="button_34"></button></a></p>
+    </div>
+  </div>
+
+</body>
+</html>
